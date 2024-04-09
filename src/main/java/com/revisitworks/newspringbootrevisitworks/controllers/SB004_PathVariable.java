@@ -13,4 +13,9 @@ public class SB004_PathVariable {
         return "Your message is: " + message;
 
     }
+    @GetMapping("/message/{message}/{message2}")
+    public String getMessage2(@PathVariable String message, @PathVariable String message2) {
+        return "Your message is: " + message + " and " + message2;
+
+    }
 }
