@@ -11,7 +11,7 @@ To run these examples locally, follow these steps:
    ```bash
    git clone https://github.com/aytekinkaplan/new_spring_boot_revisit_works.git
 
-   Examples
+ Examples
 1. Path Variable Example
 This example demonstrates the usage of @PathVariable annotation in Spring Boot. It includes a REST controller (SB004_PathVariable) with a GET endpoint that accepts a message as a path variable and returns it in the response.
 
